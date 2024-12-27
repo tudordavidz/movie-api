@@ -1,0 +1,42 @@
+# Node modules
+/node_modules/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build output
+/dist
+/build
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NPM package lock file (if you prefer to regenerate it with `npm install` rather than commit it)
+/package-lock.json
+
+# MongoDB local storage files (in case you use MongoDB locally)
+/data/
+
+# Jest coverage and test output files
+/coverage
+/test-results/
+
+# In-memory databases used in testing (like mongodb-memory-server)
+/.mongod
